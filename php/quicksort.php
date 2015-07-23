@@ -34,5 +34,5 @@ $right_array[] = $arr[$i];
 $left_array = quick_sort($left_array);
 $right_array = quick_sort($right_array);
 //合并左边 标尺 右边
-return array_merge($left_array,
+return array_merge($left_array,$right_array)
 ?>
